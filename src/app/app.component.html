@@ -4,11 +4,13 @@
     <a class="navbar-brand ms-3 cursor-pointer" role="button">CF-7 -Angular Introduction</a>
    </nav>
    <div class ="d-flex flex-row gap-2">
-    <div class ="d-flex flex-column text-nowrap bg-lighr p-2">
+    <!-- <div class ="d-flex flex-column text-nowrap bg-lighr p-2">
       <span role = "button" routerLink="component-input-example">Component Input Example</span>
       <span role = "button" routerLink="for-directive-example">{{"@for"}}Directive Example</span>
-      <span role ="button" routerLink="event-bind-example"> Bind Example</span>
-    </div>
+      <span role ="button" routerLink="event-bind-example"> Bind Example</span> -->
+    <!-- </div> -->
+
+    <app-list-group-menu class = "text-nowrap w-25"></app-list-group-menu>
     <span class = "flex-grow-1 p-2 text-nowrap">
       <router-outlet></router-outlet>
     </span>
@@ -16,12 +18,3 @@
   </div>
 </div>
 
-<div class = "container mt-4">
- <div class= "d-flex gap-5 align-items-center">
- <h1>Coding Factory</h1>
- <h2>Introduction to Angular</h2>
-</div>
-  <div class = "bg-success p-2 text-light">
-  <h3>Welcome to Angular</h3>
-  </div>
-</div>

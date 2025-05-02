@@ -18,4 +18,14 @@
 
  </div>
 
+ <div class = "mt-2 d-flex-column gap-2 w-25">
+  <input type = "text" class = "form-control" (input)="onUserInput($event)">
+  @if(!userInput){
+    <span class = '"text-danger'> No User Input</span>}
+   @else {
+      <span class = "text-bg-info p-2">{{userInput}} </span>
+    }
+
+ </div>
+
 </div>

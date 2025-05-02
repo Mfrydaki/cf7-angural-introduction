@@ -19,4 +19,8 @@ export class EventBindExampleComponent {
   decrementTimes(){
     this.times --;
   }
+  onUserInput(event: Event){
+    this.userInput = (<HTMLInputElement>event.target).value;
+ }
+ 
 }
