@@ -4,7 +4,6 @@ export interface EPerson {
   surName : string;
   age : string;
   email : string;
-  //address : Address;
   education: string;
 }
 export const ManyPerson: EPerson[] = [
