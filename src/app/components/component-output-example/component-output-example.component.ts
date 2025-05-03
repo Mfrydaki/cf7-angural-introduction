@@ -1,8 +1,6 @@
 import { Component, Inject, inject } from '@angular/core';
-import { EPerson, ManyPerson } from '../../shared/interfaces/eperson';
+import { EPerson,ManyPerson } from '../../shared/interfaces/eperson';
 import { SimpleDatatableComponent } from '../simple-datatable/simple-datatable.component';
-
-
 import {
   Dialog,
   DialogRef,
