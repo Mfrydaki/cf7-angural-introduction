@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { ComponetOutputExampleComponent } from './componet-output-example.component';
+import { ComponentOutputExampleComponent } from './component-output-example.component';
 
 describe('ComponetOutputExampleComponent', () => {
-  let component: ComponetOutputExampleComponent;
-  let fixture: ComponentFixture<ComponetOutputExampleComponent>;
+  let component: ComponentOutputExampleComponent;
+  let fixture: ComponentFixture<ComponentOutputExampleComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [ComponetOutputExampleComponent]
+      imports: [ComponentOutputExampleComponent]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(ComponetOutputExampleComponent);
+    fixture = TestBed.createComponent(ComponentOutputExampleComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
