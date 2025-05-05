@@ -1,4 +1,3 @@
-import { E } from '@angular/cdk/keycodes';
 import { Component, Input, Output, EventEmitter } from '@angular/core';
 import { EPerson } from '../../shared/interfaces/eperson';
 import { sortBy } from 'lodash-es';

@@ -8,8 +8,7 @@ import { PersonTableComponent } from '../person-table/person-table.component';
   templateUrl: './input-example.component.html',
   styleUrl: './input-example.component.css'
 })
-export class InputExampleComponent {
-
+export class ComponentInputExampleComponent {
   person0: Person = {
     givenName: 'Christodoulos',
     surName: 'Fragkoudakis',
