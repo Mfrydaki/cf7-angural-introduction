@@ -1,4 +1,4 @@
 export const environment = {
-    production : true,
-    apiURL: "https://coding-fact.gr"
+  production: true,
+  apiURL: "https://coding-factory-backend.gr"
 };
